@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.mpsc.base.regressivo.DefinitionTestSuiteRegressivo
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.198 s <<< FAILURE! - in com.mpsc.base.regressivo.DefinitionTestSuiteRegressivo
+Efetuar Login.Efetuar Login com usuário já cadastrado (Cenário com falha)  Time elapsed: 4.463 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Cenário com falha]> but was:<[Bem vindo, tmz.automation!]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mpsc.base.pages.UsuarioPage.validaMensagem(UsuarioPage.java:62)
+	at com.mpsc.base.steps.serenity.UsuarioSteps.validaMensagem(UsuarioSteps.java:33)
+	at com.mpsc.base.steps.serenity.UsuarioSteps$ByteBuddy$YeIItMD4.validaMensagem$accessor$SKOslVC1(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:522)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:502)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:474)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:88)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.mpsc.base.steps.serenity.UsuarioSteps$ByteBuddy$YeIItMD4.validaMensagem(Unknown Source)
+	at com.mpsc.base.steps.definitionSteps.DefinitionStepsUsuario.validaMensagem(DefinitionStepsUsuario.java:39)
+	at ✽.o sistema deve apresentar a mensagem "Cenário com falha"(file:///C:/projetos/poc-mpsc-automated-testes/src/test/resources/features/efetuar_login.feature:30)
+

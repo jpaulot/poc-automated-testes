@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Efetuar Login","Efetuar Login com usuário já cadastrado","SUCCESS","2023-10-11T16:52:23.891-03:00[America/Sao_Paulo]","0.0","9.48"
+"Efetuar Login","Efetuar Login com novo usuário (Dados aleatórios)","SUCCESS","2023-10-11T16:52:33.404-03:00[America/Sao_Paulo]","0.0","8.23"
+"Efetuar Login","Efetuar Login com usuário já cadastrado (Cenário com falha)","FAILURE","2023-10-11T16:52:41.657-03:00[America/Sao_Paulo]","0.0","4.46"

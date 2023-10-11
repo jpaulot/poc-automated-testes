@@ -1,0 +1,7 @@
+com\mpsc\base\pages\UsuarioPage.class
+com\mpsc\base\steps\definitionSteps\DefinitionStepsUsuario.class
+com\mpsc\base\pages\BasePage.class
+com\mpsc\base\regressivo\DefinitionTestSuiteRegressivo.class
+com\mpsc\base\Hooks.class
+com\mpsc\base\steps\serenity\UsuarioSteps.class
+com\mpsc\base\datamodel\datamodel\DataUsuario.class
